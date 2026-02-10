@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZagEng_1</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>HTML Mastery</h2>
+      <ul>
+        <li><a href="###">Home</a></li>
+        <li><a href="###">Tags</a></li>
+        <li><a href="###">Task</a></li>
+        <li><a href="###">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <header>
+        <h1>Learn HTML by Live Examples</h1>
+        <p>
+          This page contains “live examples” of all HTML essentials, proving
+          that mastering basic tags is the ‘foundation’ of web development.
+        </p>
+        <button>Get started</button>
+      </header>
+      <main class="first-main">
+        <section class="sec-1">
+          <h2>3. Text & Formatting Elements</h2>
+          <h3>Basic Text Structure</h3>
+          <p>
+            This is a standard paragraph (p). We can emphasize words by making
+            them <span class="bold">bold </span> using the &lt;strong&gt; tag,
+            or show text in <span class="italics">italics </span>using the
+            &lt;em&gt; tag.
+          </p>
+          <p>
+            Here is a line break: <br />
+            The text continues on a new line.
+          </p>
+          <hr />
+
+          <h4>Quotations and Code</h4>
+
+          <p>
+            The **&lt;blockquote&gt;** tag is perfect for long quotations from
+            another source. It ensures semantic correctness.
+          </p>
+
+          <p>
+            To display inline code, use the
+            <code>console.log("Hello HTML")</code> tag
+          </p>
+        </section>
+        <section class="sec-2">
+          <h2>9.Article & Aside Usage</h2>
+          <p>
+            This **&lt;article&gt;** element (simulated here) defines
+            independent, self-contained content, like a blog post or news story.
+          </p>
+          <hr />
+          <p>
+            This surrounding area is the **&lt;aside&gt;** tag, meant for
+            content related to the main content but separate, like an ad or a
+            glossary.
+          </p>
+        </section>
+      </main>
+      <main class="second-main">
+        <section class="sec-3">
+          <h2>4.List Exampls</h2>
+          <article>
+            <ul>
+              <p>Unordered List (&lt;ul&gt;)</p>
+              <li>HTML: structure</li>
+              <li>CSS : Style</li>
+              <li>JavaScript : Behavior</li>
+            </ul>
+            <ol>
+              <p>Ordered List (&lt;ol&gt;)</p>
+              <li>Plan Structure</li>
+              <li>Write Markup</li>
+              <li>Apply Styles</li>
+            </ol>
+            <dl>
+              <p>Definition List (&lt;dl&gt;)</p>
+              <dt>HTTP</dt>
+              <dd>Hypertext Transfer Protocol.</dd>
+              <dt>SEO</dt>
+              <dd>Search Engine Optimization.</dd>
+            </dl>
+          </article>
+        </section>
+        <section class="sec-4">
+          <h2>7.Live Form Example</h2>
+          <form>
+            <label for="Name">Full Name:</label>
+            <input type="text" id="Name" placeholder="Uosif" />
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" placeholder="example@domain.com" />
+
+            <label for="Topic">Select Topic:</label>
+            <select id="Topic">
+              <option disabled selected>--Choose Topic--</option>
+              <option>Uosif</option>
+              <option>Ben</option>
+              <option>NeGm</option>
+            </select>
+            <label for="message">Your Message:</label>
+            <textarea
+              id="message"
+              placeholder="Type your message here"
+            ></textarea>
+
+            <input type="submit" value="Send Feedback" />
+          </form>
+        </section>
+      </main>
+      <main class="third-main">
+        <section class="sec-5">
+          <h2>5.Links and 8.Media</h2>
+          <article>
+            <div>
+              <h3>standard image:</h3>
+              <img src="./Assets/HTML.jpg" alt="HTML" />
+            </div>
+            <div>
+              <h3>Link Example</h3>
+              <span>External:</span>
+              <a href="###">Uosif Ben NeGm</a>
+              <p>Image Link:</p>
+              <a href="###">
+                <img src="./Assets/click here.png" alt="click" />
+              </a>
+            </div>
+          </article>
+          <hr />
+          <h3>Media Embeds</h3>
+          <article>
+            <div>
+              <p>Audio Plyaer (&lt;audio&gt;)</p>
+              <audio src="" controls></audio>
+            </div>
+            <div>
+              <p>Vedio Plyaer (&lt;vedio&gt;)</p>
+              <video src="" controls></video>
+            </div>
+          </article>
+          <p>External Iframe :</p>
+          <iframe src="" frameborder="0"></iframe>
+        </section>
+      </main>
+      <main class="fourth-main">
+        <h2>6.Table Example</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>TAG NAME</th>
+              <th>CATEGORY</th>
+              <th>REQUIRED?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;head&gt;</td>
+              <td>Metadata</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>&lt;nav&gt;</td>
+              <td>Semantic Layout</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>&lt;td&gt;</td>
+              <td>Table Content</td>
+              <td>Yes(in'&lt;tr&gt;')</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                The table demonstrauts proper usage of all table tags.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </main>
+    </div>
+    <footer>
+      &copy; 2025 HTML Tags Playground. Created By Uosif Ben NeGm - HTML
+      Practise Page
+    </footer>
+  </body>
+</html>
